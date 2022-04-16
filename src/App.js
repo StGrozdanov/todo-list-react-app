@@ -1,5 +1,5 @@
 import './App.css';
-import TodoListContainer from './components/TodoListContainer';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <h1 className="todo-heading">My Todo List</h1>
       </header>
       <main>
-        <TodoListContainer />
+        <TodoList />
       </main>
     </>
   );
