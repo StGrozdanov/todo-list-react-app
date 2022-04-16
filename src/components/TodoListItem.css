@@ -1,0 +1,8 @@
+.todo-list-item-button {
+    margin-left: 5px;
+}
+
+.checked-todo-list-item {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
