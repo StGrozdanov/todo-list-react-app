@@ -25,12 +25,21 @@ export default function TodoListContainer() {
         e.target.value = '';
     }
 
+    function deleteListItemHandler(id) {
+        setTodo(state => state.filter(todoItem => todoItem.id !== id));
+    }
+
     return (
         <ul className='todo-container'>
             <h3 className='todo-container-heading'>For today</h3>
             <label htmlFor="add-todo">Add task</label>
             <input onBlur={addItemOnBlurHandler} className="add-todo-input" type="text" name='add-todo' />
-            {initialTodo.map(todo => <TodoListItem key={todo.id} content={todo.content} />)}
+            {initialTodo.map(todo =>
+                <TodoListItem
+                    key={todo.id}
+                    content={todo.content}
+                    deleteHandler={() => deleteListItemHandler(todo.id)}
+                />)}
         </ul>
     );
 }
