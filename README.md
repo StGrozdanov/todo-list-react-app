@@ -1,3 +1,7 @@
+# Base Description
+
+This is a mini app that i created for exercise porpuses. It involves the full component lifecycle - from mount to update and unmount.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
