@@ -1,6 +1,6 @@
 # Base Description
 
-This is a mini app that i created for exercise porpuses. It involves the full component lifecycle - from mount to update and unmount.
+This is a mini app that i created for exercise purposes. It involves the full component lifecycle - from mount to update and unmount.
 
 # Getting Started with Create React App
 
